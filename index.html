@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday My Love 🎉</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Poppins:wght@400;600&display=swap');
+
+    body {
+      font-family:  'Poppins', sans-serif;
+      background: linear-gradient(135deg, #ffcc70, #ff8177);
+      color: #fff;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      overflow: hidden;
+      position: relative;
+    }
+
+    /* Floating Balloons */
+    .balloon {
+      position: absolute;
+      font-size: 2rem;
+      animation: float 5s infinite ease-in-out;
+      opacity: 0.8;
+    }
+    @keyframes float {
+      0% { transform: translateY(0); }
+      50% { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      max-width: 90%;
+      width: 350px;
+      position: absolute;
+      z-index: 2;
+      animation: fadeIn 1s ease-in-out;
+    }
+
+    h1 {
+      font-family: 'Dancing Script', cursive;
+      font-size: 2.2rem;
+    }
+
+    .text {
+      font-size: 1.2rem;
+      display: block;
+      min-height: 50px;
+      white-space: pre-wrap;
+    }
+
+    .button {
+      background: #ff6f61;
+      color: #fff;
+      border: none;
+      padding: 12px 25px;
+      font-size: 1.1rem;
+      border-radius: 20px;
+      cursor: pointer;
+      transition: transform 0.3s ease, background 0.3s ease;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      margin-top: 20px;
+    }
+
+    .button:hover {
+      background: #e85b50;
+      transform: scale(1.05);
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: scale(0.9); }
+      to { opacity: 1; transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bg-music" loop>
+    <source src="./WhatsApp Audio 2025-02-13 at 00.31.34_5446e143.mp3" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+
+  <!-- Floating Balloons -->
+  <div class="balloon" style="left: 10%; top: 20%;">🎈</div>
+  <div class="balloon" style="left: 30%; top: 50%; animation-duration: 6s;">🎉</div>
+  <div class="balloon" style="left: 50%; top: 30%; animation-duration: 7s;">🎂</div>
+  <div class="balloon" style="left: 70%; top: 60%; animation-duration: 5s;">🎁</div>
+  <div class="balloon" style="left: 90%; top: 40%; animation-duration: 6s;">✨</div>
+
+  <!-- Card 1 -->
+  <div class="container" id="card1">
+    <h1>Ammuseee...</h1>
+    <p class="text" id="text1"></p>
+    <button class="button" onclick="showNextCard(1)">Ivide Und</button>
+  </div>
+
+  <!-- Card 2 -->
+  <div class="container hidden" id="card2">
+    <h1>Ponne</h1>
+    <p class="text" id="text2"></p>
+    <button class="button" onclick="showNextCard(2)">Entha😁</button>
+  </div>
+
+  <!-- Card 3 -->
+  <div class="container hidden" id="card3">
+    <h1>Ammu</h1>
+    <p class="text" id="text3"></p>
+    <button class="button" onclick="showNextCard(3)">Oho😁</button>
+  </div>
+
+    <!-- Card 4 -->
+  <div class="container hidden" id="card4">
+    <h1>Ayyaaaa</h1>
+    <p class="text" id="text4"></p>
+    <button class="button" onclick="showNextCard(4)">Hi hi hi😉</button>
+  </div>
+
+    <!-- Card 5 -->
+  <div class="container hidden" id="card5">
+    <h1>Miss Athira</h1>
+    <p class="text" id="text5"></p>
+    <button class="button" onclick="showNextCard(5)">Athe🤩</button>
+  </div>
+
+    <!-- Card 6 -->
+  <div class="container hidden" id="card6">
+    <h1>Ponnuushh</h1>
+    <p class="text" id="text6"></p>
+    <button class="button" onclick="showNextCard(6)">Ath Polikkum❤</button>
+  </div>
+
+      <!-- Card 7 -->
+  <div class="container hidden" id="card7">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text7"></p>
+    <button class="button" onclick="showNextCard(7)">Njanaa</button>
+  </div>
+
+        <!-- Card 8 -->
+  <div class="container hidden" id="card8">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text8"></p>
+    <button class="button" onclick="showNextCard(8)">Njanaa</button>
+  </div>
+
+      <!-- Card 9 -->
+  <div class="container hidden" id="card9">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text9"></p>
+    <button class="button" onclick="showNextCard(9)">Njanaa</button>
+  </div>
+
+      <!-- Card 10 -->
+  <div class="container hidden" id="card10">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text10"></p>
+    <button class="button" onclick="showNextCard(10)">Njanaa</button>
+  </div>
+
+        <!-- Card 11 -->
+  <div class="container hidden" id="card11">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text11"></p>
+    <button class="button" onclick="showNextCard(11)">Njanaa</button>
+  </div>
+
+        <!-- Card 12 -->
+  <div class="container hidden" id="card12">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text12"></p>
+    <button class="button" onclick="showNextCard(12)">Njanaa</button>
+  </div>
+
+      <!-- Card 13 -->
+  <div class="container hidden" id="card13">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text13"></p>
+    <button class="button" onclick="showNextCard(13)">Njanaa</button>
+  </div>
+
+      <!-- Card 14 -->
+  <div class="container hidden" id="card14">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text14"></p>
+    <button class="button" onclick="showNextCard(14)">Njanaa</button>
+  </div>
+
+      <!-- Card 15 -->
+  <div class="container hidden" id="card15">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text15"></p>
+    <button class="button" onclick="showNextCard(15)">Njanaa</button>
+  </div>
+  
+        <!-- Card 16 -->
+  <div class="container hidden" id="card16">
+    <h1>Ammuseee</h1>
+    <p class="text" id="text16"></p>
+    <button class="button" onclick="showNextCard(16)">Njanaa</button>
+  </div>
+
+        <!-- Card 17 -->
+  <div class="container hidden" id="card17">
+    <h1>Edi Thendi</h1>
+    <p class="text" id="text17"></p>
+    <button class="button" onclick="showNextCard(17)">Ariyam</button>
+  </div>
+
+  <!-- Card 18 -->
+  <div class="container hidden" id="card18">
+    <h1>Oo Pinne</h1>
+    <p class="text" id="text18"></p>
+    <button class="button" onclick="showNextCard(18)">Oh Pinne</button>
+  </div>
+
+  <!-- Card 19 -->
+  <div class="container hidden" id="card19">
+    <h1>Ponnuushh</h1>
+    <p class="text" id="text19"></p>
+    <button class="button" onclick="showNextCard(19)">Athe</button>
+  </div>
+
+    <!-- Card 20 -->
+  <div class="container hidden" id="card20">
+    <h1>Ponnuushh</h1>
+    <p class="text" id="text20"></p>
+    <button class="button" onclick="showNextCard(20)">Athe</button>
+  </div>
+
+    <!-- Card 21 -->
+  <div class="container hidden" id="card21">
+    <h1>Edi</h1>
+    <p class="text" id="text21"></p>
+    <button class="button" onclick="showNextCard(21)">Enikkum</button>
+  </div>
+
+    <!-- Card 22 -->
+  <div class="container hidden" id="card22">
+    <h1>Ponne</h1>
+    <p class="text" id="text22"></p>
+    <button class="button" onclick="showNextCard(22)">Athe</button>
+  </div>
+
+    <!-- Card 23 -->
+  <div class="container hidden" id="card23">
+    <h1>Pannni</h1>
+    <p class="text" id="text23"></p>
+    <button class="button" onclick="showNextCard(23)">Oho</button>
+  </div>
+
+    <!-- Card 24 -->
+  <div class="container hidden" id="card24">
+    <h1>Ninak ariyumo??</h1>
+    <p class="text" id="text24"></p>
+    <button class="button" onclick="showNextCard(24)">Oho</button>
+  </div>
+
+    <!-- Card 25 -->
+  <div class="container hidden" id="card25">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text25"></p>
+    <button class="button" onclick="showNextCard(25)">Und</button>
+  </div>
+
+    <!-- Card 26 -->
+  <div class="container hidden" id="card26">
+    <h1>Ninak ariyumo??</h1>
+    <p class="text" id="text26"></p>
+    <button class="button" onclick="showNextCard(26)">Oho</button>
+  </div>
+
+    <!-- Card 27 -->
+  <div class="container hidden" id="card27">
+    <h1>Ponnuushh</h1>
+    <p class="text" id="text27"></p>
+    <button class="button" onclick="showNextCard(27)">Athe</button>
+  </div>
+
+    <!-- Card 28 -->
+  <div class="container hidden" id="card28">
+    <h1>Ammu</h1>
+    <p class="text" id="text28"></p>
+    <button class="button" onclick="showNextCard(28)">Athe</button>
+  </div>
+
+    <!-- Card 29 -->
+  <div class="container hidden" id="card29">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text29"></p>
+    <button class="button" onclick="showNextCard(29)">Venam venam</button>
+  </div>
+
+  <!-- Card 30 -->
+  <div class="container hidden" id="card30">
+    <h1>First Date</h1>
+    <iframe 
+  src="https://drive.google.com/file/d/1HcI--cPp5f7CF2rbxJkA8vgwIXkDWLoK/preview" 
+  width="100%" height="500" 
+  allow="autoplay">
+</iframe>
+    <button class="button" onclick="showNextCard(30)">Full Kandu</button>
+  </div>
+
+    <!-- Card 31 -->
+  <div class="container hidden" id="card31">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text31"></p>
+    <button class="button" onclick="showNextCard(31)">Athe</button>
+  </div>
+
+  
+    <!-- Card 32 -->
+  <div class="container hidden" id="card32">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text32"></p>
+    <button class="button" onclick="showNextCard(32)">Athe</button>
+  </div>
+
+  
+    <!-- Card 33 -->
+  <div class="container hidden" id="card33">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text33"></p>
+    <button class="button" onclick="showNextCard(33)">Vere Enth</button>
+  </div>
+
+
+    <!-- Card 34 -->
+  <div class="container hidden" id="card34">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text34"></p>
+    <button class="button" onclick="showNextCard(34)">Oho</button>
+  </div>
+
+      <!-- Card 35 -->
+  <div class="container hidden" id="card35">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text35"></p>
+    <button class="button" onclick="showNextCard(35)">Venam venam</button>
+  </div>
+
+  <!-- Card 36 -->
+  <div class="container hidden" id="card36">
+    <h1>For My Love</h1>
+    <iframe 
+  src="https://drive.google.com/file/d/18F9FS1oqro6RIsa8bkfCGmNvOK5_cFYs/preview" 
+  width="100%" height="500" 
+  allow="autoplay">
+</iframe>
+    <button class="button" onclick="showNextCard(36)">Kandu</button>
+  </div>
+
+        <!-- Card 37 -->
+  <div class="container hidden" id="card37">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text37"></p>
+    <button class="button" onclick="showNextCard(37)">Orupad</button>
+  </div>
+
+        <!-- Card 38 -->
+  <div class="container hidden" id="card38">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text38"></p>
+    <button class="button" onclick="showNextCard(38)">Athe</button>
+  </div>
+
+          <!-- Card 39 -->
+  <div class="container hidden" id="card39">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text39"></p>
+    <button class="button" onclick="showNextCard(39)">😍</button>
+  </div>
+
+          <!-- Card 40 -->
+  <div class="container hidden" id="card40">
+    <h1>Panni kutti</h1>
+    <p class="text" id="text40"></p>
+    <button class="button" onclick="showNextCard(40)">🥰</button>
+  </div>
+
+  <!-- Card 41 -->
+  <div class="container hidden" id="card41">
+    <h1>Happy Birthday Again! 🎂</h1>
+    <p class="text" id="text41"></p>
+    <p>Forever Yours,<br>Ponnumkatta ❤️</p>
+  </div>
+
+  <script>
+    let currentCard = 1;
+    let messages = {
+      text1: "Nee Evideyaa....😁",
+      text2: "Innathe day nte speciality entha enn nink ariyumo😁??",
+      text3: "Inn ninte Birthday aan di panni kutti😉",
+      text4: "Entha Oole chiri ... Enthe nanam varunno nink?😆",
+      text5: "Romantic aavan oru paatt und enkil super aayene alle...😁",
+      text6: "Enna Pinne oru patt ittaalo?😁",
+      text7: "Ente mol aara😘",
+      text8: "Ente ponn aara❤",
+      text9: "Ente vava aara🤩",
+      text10: "Ente devi aara😘",
+      text11: "Ente panni kutti aara😁",
+      text12: "Ente chakkara aara😉",
+      text13: "Ente thakkudu aara😇",
+      text14: "Ente panjaara aara❤",
+      text15: "Ente theettakkatta aara😘",
+      text16: "Ente jeevan aara😇",
+      text17: "Enikk enth ishtam aan enn ariyo panni ninakk?❤",
+      text18: "Unda ariyum.. ath yee oohikkunnathil kooduthal und😁",
+      text19: "Ethra pettann aan alle samayam pokunnath??😞",
+      text20: "Kazhinja pirannal kazhinjitt athikam aaya poleye thonnunnilla",
+      text21: "Njan ippol naattil undayirnnu enkil enn orupaad agrahikkunnu di😞",
+      text22: "Enth rasam aayirnnu alle orumich ulla ithra kaalam❤",
+      text23: "Orumich ulla ororo moments enikk ethra vilapette an enn nink ariyilla di❤",
+      text24: "Ninne kandal ippozhum virayal varunna aal aan njan, ippozhum crush aan nee enikk😘",
+      text25: "Ninakk orma undo nammal adhyam aayi karangan poyath❤",
+      text26: "Ente first date aan ath, enikku ath orupad orupaad special aan❤❤",
+      text27: "Scooter il orupaad samsarich, orupaad aduth nammal karangi😍",
+      text28: "Ente rasam aayirinnu alle aa moments okke😇",
+      text29: "Video kanano?😉",
+      text31: "Onn purakott poya pole und alle..❤",
+      text32: "Enikkum und.. pakshe ith anniversary kk njan undakkkiya video alle, new allallo..😞",
+      text33: "Sammanam aayi new dressum pinne njan ambalathil poyathum mathiyo??😁",
+      text34: "Moonnamath oru sammanam koode und.. 3 mins ulla video. Sound il ath play cheyth kaanu😍",
+      text35: "Video idatte njan?😉",
+      text37: "Engnae und ishtayo ninak?",
+      text38: "Orupad snehavum, santhoshavum, kaliyum kurech adiyum idiyum kurumbum ulla nammude nimishangal❤",
+      text39: "Thanks panni enne ingane snehich konnathinu😍😍",
+      text40: "Ente Ammooosinu ente happiest birthday🥰😍"
+    };
+
+    function typeText(id, text, index = 0) {
+      if (index < text.length) {
+        document.getElementById(id).innerText += text.charAt(index);
+        setTimeout(() => typeText(id, text, index + 1), 50);
+      }
+    }
+
+    function showNextCard(cardNumber) {
+
+   if (cardNumber === 30) {
+    const iframe = document.querySelector('#card30 iframe');
+    if (iframe) {
+      // Reset by replacing with a fresh iframe
+      iframe.src = iframe.src;
+    }
+  }
+
+  if (cardNumber === 36) {
+    const iframe = document.querySelector('#card36 iframe');
+    if (iframe) {
+      iframe.src = iframe.src;
+    }
+  }
+      document.getElementById(`card${currentCard}`).style.display = 'none';
+      currentCard = cardNumber + 1;
+      document.getElementById(`card${currentCard}`).style.display = 'block';
+
+      // Play music when card 7 is shown
+      if (currentCard === 7) {
+        let audio = document.getElementById("bg-music");
+        audio.play().catch(err => console.log("Autoplay prevented:", err));
+      }
+
+      if (currentCard === 29) { // or whatever card number should stop the music
+  let audio = document.getElementById("bg-music");
+  audio.pause();
+  audio.currentTime = 0;
+}
+
+      let textId = `text${currentCard}`;
+      if (messages[textId]) {
+        document.getElementById(textId).innerText = "";
+        typeText(textId, messages[textId]);
+      }
+    }
+
+    // Start typing first message
+    typeText("text1", messages.text1);
+  </script>
+
+</body>
+</html>
